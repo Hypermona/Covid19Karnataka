@@ -45,7 +45,7 @@ text-align: center;
 .kar .block-head, .india .block-head{
  margin: auto;
  padding: 15px;
- margin-left: -10px;  
+ /* margin-left: -10px;   */
 }
 }
 @media only screen and (max-width: 768px) {
