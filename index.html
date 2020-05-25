@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="index.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <title>Covid19Karnataka</title>
+    
+</head>
+<body>
+     <div class="container-fluid">
+         <!-- Menu bar Start -->
+        <div class="pos-f-t">
+            <div class="collapse" id="navbarToggleExternalContent">
+                <div class="p-4">
+                    <div class="form-inline">
+                    <h4 class="text-secondary">Covid19</h4><h4 class="text-primary">Karnataka</h4>
+                    </div>
+                    <nav class="nav flex-column">
+                        <a class="nav-link active" href="#">Active</a>
+                        <a class="nav-link" href="#">Link</a>
+                        <a class="nav-link" href="#">Link</a>
+                        <a class="nav-link disabled" href="#">Disabled</a>
+                    </nav>
+                    <span class="text-muted">Toggleable via the navbar brand.</span>
+                </div>
+            </div>
+            <nav class="navbar navbar-dark bg-dark">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent"
+                    aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </nav>
+        </div>
+        <!-- end of Menu bar -->
+        <div class="container">
+            <!-- main Heading start -->
+            <div class="my-3 text-center">
+            <h2>COVID19<span class="badge badge-danger">KARNATAKA</span></h2>
+            </div>
+            <!-- search bar -->
+            <div class="text-center">
+                <form class="form-inline justify-content-center my-5">
+                    <input class="form-control mr-sm-4" type="search" placeholder="Search Your District" aria-label="Search">
+                    <button class="btn btn-outline-success my-3 my-sm-0" type="submit">Search</button>
+                </form>
+            </div>
+            <div class="main-block">
+                <!-- data about karnataka -->
+                <h4 class="text-secondary"style="text-align: center;margin: 30px;">Karnataka</h4>
+                <div class="kar">
+                    <div class="confirmed block-head text-danger">
+                        <h6 class="title1">Confirmed</h6>
+                        <p class="new-case red-muted" id="kar-confirmed-new-case">[+93]</p>
+                        <p class="total" id="kar-confirmed-total">2,182</p>
+                    </div>
+                    <div class="active block-head text-primary">
+                        <h6 class="title1">Active</h6>
+                        <p class="new-case blue-muted" id="kar-active-new-case">[+96]</p>
+                        <p class="total" id="kar-active-total">1431</p>
+                    </div>
+                    <div class="recovered block-head text-success">
+                        <h6 class="title1">Recovered</h6>
+                        <p class="new-case green-muted" id="kar-recovered-new-case">[+51]</p>
+                        <p class="total" id="kar-recovered-total">705</p>
+                    </div>
+                    <div class="deaths block-head text-secondary">
+                        <h6 class="title1">Deaths</h6>
+                        <p class="new-case black-muted" id="kar-deaths-new-case">[+2]</p>
+                        <p class="total" id="kar-deaths-total">44</p>
+                    </div>
+                </div>
+                <!-- data about india-->
+                <h4 class="text-secondary"style="text-align: center;margin: 30px;">India</h4>
+                <div class="india">
+                    <div class="confirmed block-head text-danger">
+                        <h6 class="title1">Confirmed</h6>
+                        <p class="new-case red-muted" id="india-confirmed-new-case">[+1,610]</p>
+                        <p class="total" id="india-confirmed-total">1,40,146</p>
+                    </div>
+                    <div class="active block-head text-primary">
+                        <h6 class="title1">Active</h6>
+                        <p class="new-case blue-muted" id="india-active-new-case">[+1,610]</p>
+                        <p class="total" id="india-active-total">77,922</p>
+                    </div>
+                    <div class="recovered block-head text-success">
+                        <h6 class="title1">Recovered</h6>
+                        <p class="new-case green-muted" id="india-recovered-new-case">[+480]</p>
+                        <p class="total" id="india-recovered-total">58,174</p>
+                    </div>
+                    <div class="deaths block-head text-secondary">
+                        <h6 class="title1">Deaths</h6>
+                        <p class="new-case black-muted" id="india-deaths-new-case">[+17]</p>
+                        <p class="total" id="india-deaths-total">4,041</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+     </div>
+    <script src="index.js"></script>
+</body>
+</html>

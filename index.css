@@ -1,0 +1,89 @@
+@font-face{
+    font-family: archia;
+    src: url('archia-regular-webfont.ttf');
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box  ;
+}
+body{
+ font-family: archia;
+}
+.red-muted{
+color: rgba(255, 7, 58, 0.6);
+}
+.blue-muted{
+    color: rgba(0,123,255,0.6);
+}
+.green-muted{
+color: rgba(40,167,69,0.6);
+}
+.black-muted{
+color: rgba(108, 117,125,0.6);
+}
+.main-block{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    max-width: 800px;
+}
+.kar, .india{
+    margin: auto;  
+display: flex;
+text-align: center;
+}
+.kar .block-head, .india .block-head{
+    margin: auto;
+    padding: 10px 40px 10px 40px; 
+}
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+.kar .block-head, .india .block-head{
+ margin: auto;
+ padding: 15px;
+ margin-left: -10px;  
+}
+}
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+.india{
+  margin-left: -10px;   
+}
+}
+.kar .block-head .title1,.india .block-head .title1{
+    padding: auto;
+    font-size: normal;
+}
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+ .kar .block-head .title1,.india .block-head .title1{
+    font-size: x-small;
+}
+}
+.kar .block-head .new-case,.india .block-head .new-case{
+    padding: auto;
+     margin :20px 0px -5px 0px;
+    font-size: normal;
+}
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+ .kar .block-head .new-case,.india .block-head .new-case{
+    font-size: x-small;
+}
+}
+.kar .block-head .total,.india .block-head .total{
+    margin-top: 5px;
+    padding: auto;
+    font-size: xx-large;
+    font-weight: 600;
+}
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+ .kar .block-head .total,.india .block-head .total{
+    font-size: inherit;
+}
+}
