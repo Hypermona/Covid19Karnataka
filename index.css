@@ -9,6 +9,7 @@
 }
 body{
  font-family: archia;
+ text-align: center;
 }
 .red-muted{
 color: rgba(255, 7, 58, 0.6);
@@ -40,7 +41,7 @@ text-align: center;
     margin: auto;
     padding: 10px 40px 10px 40px; 
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 480px) {
   /* For mobile phones: */
 .kar .block-head, .india .block-head{
  margin: auto;
@@ -48,17 +49,17 @@ text-align: center;
  /* margin-left: -10px;   */
 }
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 480px) {
   /* For mobile phones: */
 .india{
-  margin-left: -10px;   
+  margin-right: 4.5%;   
 }
 }
 .kar .block-head .title1,.india .block-head .title1{
     padding: auto;
     font-size: normal;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 480px) {
   /* For mobile phones: */
  .kar .block-head .title1,.india .block-head .title1{
     font-size: x-small;
@@ -69,10 +70,10 @@ text-align: center;
      margin :20px 0px -5px 0px;
     font-size: normal;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 480px) {
   /* For mobile phones: */
  .kar .block-head .new-case,.india .block-head .new-case{
-    font-size: x-small;
+    font-size: smaller;
 }
 }
 .kar .block-head .total,.india .block-head .total{
@@ -81,7 +82,7 @@ text-align: center;
     font-size: xx-large;
     font-weight: 600;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 480px) {
   /* For mobile phones: */
  .kar .block-head .total,.india .block-head .total{
     font-size: inherit;
