@@ -91,7 +91,7 @@ window.addEventListener('load', ()=>{
         let caseDistrictWise = document.getElementById('case-district-wise');
         console.log(caseDistrictWise);
         let details = document.createElement('div');
-        details.classList.add("details","w3-animate-left");
+        details.classList.add("details","w3-animate-opacity");
         let name = document.createElement('div');
         name.classList.add('name','common','n1');
         name.innerHTML = n;
