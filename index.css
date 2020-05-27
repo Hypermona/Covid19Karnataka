@@ -61,7 +61,7 @@ text-align: center;
 @media only screen and (max-width: 480px) {
   /* For mobile phones: */
 .india{
-  margin-left:-2%;   
+  margin-left:-1.6%;   
 }
 }
 .kar .block-head .title1,.india .block-head .title1{
@@ -134,7 +134,7 @@ text-align: center;
     margin-right: 0.25vw;
 }
 .cent{
-    margin-bottom: -2vh;
+    margin-bottom: -1vh;
     position: relative;
 }
 .name{
@@ -161,7 +161,6 @@ text-align: center;
          flex-wrap: wrap;
          font-size: 14.4px;  
          width:26vw;
-         height: 5vh;
          margin: 0.3vw;
          padding: 0.2vw 1vw;
  }
@@ -184,26 +183,29 @@ text-align: center;
     width: 13vw;
  }
  .new-case-dist-1,.new-case-dist-2,.new-case-dist-3,.new-case-dist-4{
-    font-size: 0.5rem;
+    font-size: 0.6rem;
+    margin-right: 1vw;
 }
 .n1{
-    width: 30vw;
+    width: 32vw;
 }
 .n2{
     width: 15vw;
 }
 .n3{
-     width: 15vw;
+     width: 14.5vw;
 }
 .n4{
-     width: 15vw;
+     width: 14.5vw;
 }
 .n5{
-     width: 15vw;
+     width: 14.5vw;
 }
 }
 /* for smooth loading */
 .w3-animate-bottom{
 animation-duration: 2s;
 }
-
+.w3-animate-right{
+    animation-duration: 2s;
+}
