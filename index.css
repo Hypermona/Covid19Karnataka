@@ -159,11 +159,11 @@ text-align: center;
  }
  .common{
          flex-wrap: wrap;
-         font-size: 0.8rem;  
+         font-size: 14.4px;  
          width:26vw;
          height: 5vh;
          margin: 0.3vw;
-         padding: 0.5vw;
+         padding: 0.2vw 1vw;
  }
  .common1{
      width: 16vw;
