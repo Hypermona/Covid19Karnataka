@@ -32,6 +32,11 @@ color: rgba(108, 117,125,0.6);
     margin: auto;
     max-width: 800px;
 }
+.image{
+   text-align:center;
+    height: 30%;
+    width: 30%;
+}
 .kar, .india{
     margin: auto;  
 display: flex;
@@ -47,6 +52,10 @@ text-align: center;
  margin: auto;
  padding: 15px;
  /* margin-left: -10px;   */
+}
+.image{
+ height: inherit;
+    width: inherit;
 }
 }
 @media only screen and (max-width: 480px) {
@@ -88,3 +97,99 @@ text-align: center;
     font-size: inherit;
 }
 }
+.main-block a{
+    margin: 50px 0px 50px 0px;
+}
+.case-district-wise{
+    background-color: rgb(107, 119, 129);
+    display: flex;
+    flex-direction: inherit;
+}
+.details{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.common{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 0.9rem;
+    margin: 0.6vw;
+    width:11vw;
+    height: 7vh;
+    padding: 0.5vw;
+    color: rgba(108, 117,125,1);
+    background-color:#F6F6F7;
+    border-radius: 4px;
+    font-weight: 600;
+}
+.common1{
+    /* padding: 0.5vw 0.5vw 0.5vw 5vw; */
+}
+#case-district-wise{
+    display: none;
+}
+.new-case-dist-1,.new-case-dist-2,.new-case-dist-3,.new-case-dist-4{
+    font-size: x-small;
+    margin-right: 0.25vw;
+}
+.cent{
+    margin-bottom: -2vh;
+    position: relative;
+}
+.name{
+    text-align: left;
+}
+.align-dist{
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+}
+.t1,.t2,.t3,.t4,.t5{
+    display: flex;
+    justify-content: center;
+     width: 11vw;
+}
+@media only screen and (max-width: 480px) {
+  /* For mobile phones: */
+ .case-district-wise{
+     width: inherit;
+ }
+ .common{
+     flex-wrap: wrap;
+    font-size: 0.6rem;  
+       width:26vw;
+       height: 5vh;
+       margin: 0.3vw;
+       padding: 0.5vw;
+ }
+ .common1{
+     width: 16vw;
+ }
+ .t1{
+     width: 25vw;
+ }
+ .t2{
+width: 16vw;
+ }
+ .t3{
+width: 15vw;
+ }
+ .t4{
+width: 16vw;
+ }
+ .t5{
+width: 13vw;
+ }
+ .new-case-dist-1,.new-case-dist-2,.new-case-dist-3,.new-case-dist-4{
+    font-size: 0.5rem;
+}
+}
+/* for smooth loading */
+.w3-animate-bottom{
+animation-duration: 2s;
+}
+

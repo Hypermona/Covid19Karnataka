@@ -7,6 +7,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="index.css">
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -43,20 +44,16 @@
         <!-- end of Menu bar -->
         <div class="container">
             <!-- main Heading start -->
-            <div class="my-3 text-center">
+            <div class="my-3 text-center w3-animate-bottom">
             <h2>COVID19<span class="badge badge-danger">KARNATAKA</span></h2>
             </div>
-            <!-- search bar -->
-            <div class="text-center">
-                <form class="form-inline justify-content-center my-5">
-                    <input class="form-control mr-sm-4" type="search" placeholder="Search Your District" aria-label="Search">
-                    <button class="btn btn-outline-success my-3 my-sm-0" type="submit">Search</button>
-                </form>
-            </div>
+             
+                <img class="img-fluid image w3-animate-bottom"src="social_dis.svg" alt="Social-distancing">
+            
             <div class="main-block">
                 <!-- data about karnataka -->
-                <h4 class="text-secondary"style="text-align: center;margin: 30px;">Karnataka</h4>
-                <div class="kar">
+                <h4 class="text-secondary w3-animate-bottom"style="text-align: center;margin: 30px;">Karnataka</h4>
+                <div class="kar w3-animate-bottom">
                     <div class="confirmed block-head text-danger">
                         <h6 class="title1">Confirmed</h6>
                         <p class="new-case red-muted" id="kar-confirmed-new-case">[+93]</p>
@@ -79,8 +76,8 @@
                     </div>
                 </div>
                 <!-- data about india-->
-                <h4 class="text-secondary"style="text-align: center;margin: 30px;">India</h4>
-                <div class="india">
+                <h4 class="text-secondary w3-animate-bottom"style="text-align: center;margin: 30px;">India</h4>
+                <div class="india w3-animate-bottom">
                     <div class="confirmed block-head text-danger">
                         <h6 class="title1">Confirmed</h6>
                         <p class="new-case red-muted" id="india-confirmed-new-case">[+1,610]</p>
@@ -102,9 +99,43 @@
                         <p class="total" id="india-deaths-total">4,041</p>
                     </div>
                 </div>
+                <br>
+                <!-- Cases in karnataka district wise -->
+                <a class="btn btn-outline-secondary btn-block w3-animate-bottom" id="bt" href="#case-district-wise">Cases in karnataka district wise</a>
+
+                <div class="cases-district-wise text-dark w3-animate-bottom" id="case-district-wise">
+                    <div class="details sticky-top w3-animate-bottom">
+                        <div class="name common t1">District</div>
+                        <div class="confirmed common t2">Confirmed</div>
+                        <div class="active common t3">Active</div>
+                        <div class="recovered common t4">Recovered</div>
+                        <div class="deaths common t4">Deaths</div>
+                    </div>
+                    <div class="details w3-animate-bottom">
+                        <div class="name common">Dhakshina kannada</div>
+                        <div class="confirmed-dist common align-dist common1">
+                            <p class="new-case-dist-1 text-danger cent" >&uarr; 133</p>
+                            <p class="total-dist-1 cent">22342</p>
+                        </div>
+                        <div class="active-dist common  align-dist common1">
+                            <p class="new-case-dist-2 text-primary cent" >&uarr; 45</p>
+                            <p class="total-dist-2 cent">451</p>
+                        </div>
+                        <div class="recovered-dist common  align-dist common1">
+                            <p class="new-case-dist-3 text-success cent" >&uarr; 67</p>
+                            <p class="total-dist-3 cent">1234</p>
+                        </div>
+                        <div class="deaths-dist common  align-dist common1">
+                            <p class="new-case-dist-4 text-secondary cent" >&uarr; 12</p>
+                            <p class="total-dist-4 cent">105</p>
+                        </div>
+                    </div>
+                </div>
+                
             </div>
         </div>
      </div>
     <script src="index.js"></script>
+    <script src="jquery.smoothState.min.js"></script>
 </body>
 </html>
