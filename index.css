@@ -159,12 +159,12 @@ text-align: center;
      width: inherit;
  }
  .common{
-     flex-wrap: wrap;
-    font-size: 0.6rem;  
-       width:26vw;
-       height: 5vh;
-       margin: 0.3vw;
-       padding: 0.5vw;
+         flex-wrap: wrap;
+         font-size: 0.8rem;  
+         width:26vw;
+         height: 5vh;
+         margin: 0.3vw;
+         padding: 0.5vw;
  }
  .common1{
      width: 16vw;
@@ -173,16 +173,16 @@ text-align: center;
      width: 25vw;
  }
  .t2{
-width: 16vw;
+    width: 16vw;
  }
  .t3{
-width: 15vw;
+    width: 15vw;
  }
  .t4{
-width: 16vw;
+    width: 16vw;
  }
  .t5{
-width: 13vw;
+    width: 13vw;
  }
  .new-case-dist-1,.new-case-dist-2,.new-case-dist-3,.new-case-dist-4{
     font-size: 0.5rem;
