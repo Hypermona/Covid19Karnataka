@@ -71,7 +71,7 @@ text-align: center;
 @media only screen and (max-width: 480px) {
   /* For mobile phones: */
  .kar .block-head .title1,.india .block-head .title1{
-    font-size: x-small;
+    font-size: 0.8rem;
 }
 }
 .kar .block-head .new-case,.india .block-head .new-case{
@@ -94,7 +94,7 @@ text-align: center;
 @media only screen and (max-width: 480px) {
   /* For mobile phones: */
  .kar .block-head .total,.india .block-head .total{
-    font-size: inherit;
+    font-size: x-large;
 }
 }
 .main-block a{
