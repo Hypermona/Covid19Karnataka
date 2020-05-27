@@ -61,7 +61,7 @@ text-align: center;
 @media only screen and (max-width: 480px) {
   /* For mobile phones: */
 .india{
-  margin-right: 4.5%;   
+  margin-left:-2%;   
 }
 }
 .kar .block-head .title1,.india .block-head .title1{
@@ -94,7 +94,7 @@ text-align: center;
 @media only screen and (max-width: 480px) {
   /* For mobile phones: */
  .kar .block-head .total,.india .block-head .total{
-    font-size: x-large;
+    font-size:large;
 }
 }
 .main-block a{
@@ -117,7 +117,6 @@ text-align: center;
     font-size: 0.9rem;
     margin: 0.6vw;
     width:11vw;
-    height: 7vh;
     padding: 0.5vw;
     color: rgba(108, 117,125,1);
     background-color:#F6F6F7;
@@ -186,6 +185,21 @@ text-align: center;
  }
  .new-case-dist-1,.new-case-dist-2,.new-case-dist-3,.new-case-dist-4{
     font-size: 0.5rem;
+}
+.n1{
+    width: 30vw;
+}
+.n2{
+    width: 15vw;
+}
+.n3{
+     width: 15vw;
+}
+.n4{
+     width: 15vw;
+}
+.n5{
+     width: 15vw;
 }
 }
 /* for smooth loading */

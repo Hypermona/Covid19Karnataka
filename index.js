@@ -93,11 +93,11 @@ window.addEventListener('load', ()=>{
         let details = document.createElement('div');
         details.classList.add("details","w3-animate-bottom");
         let name = document.createElement('div');
-        name.classList.add('name','common');
+        name.classList.add('name','common','n1');
         name.innerHTML = n;
 
         let confirmedDist = document.createElement('div');
-        confirmedDist.classList.add("confirmed-dist", "common", "align-dist", "common1");
+        confirmedDist.classList.add("confirmed-dist", "common", "align-dist", "common1","n2");
 
         let newCaseDist1 = document.createElement('p');
         newCaseDist1.classList.add('new-case-dist-1', "text-danger",'cent');
@@ -107,7 +107,7 @@ window.addEventListener('load', ()=>{
         totalDist1.innerHTML = c;
 
         let activeDist = document.createElement('div');
-        activeDist.classList.add("active-dist", "common",  "align-dist" ,"common1");
+        activeDist.classList.add("active-dist", "common",  "align-dist" ,"common1","n3");
 
         let newCaseDist2 = document.createElement('p');
         newCaseDist2.classList.add('new-case-dist-2', "text-primary",'cent');
@@ -117,7 +117,7 @@ window.addEventListener('load', ()=>{
         totalDist2.innerHTML = a;
 
         let recoveredDist = document.createElement('div');
-        recoveredDist.classList.add("recovered-dist", "common", "align-dist" ,"common1");
+        recoveredDist.classList.add("recovered-dist", "common", "align-dist" ,"common1","n4");
 
         let newCaseDist3 = document.createElement('p');
         newCaseDist3.classList.add('new-case-dist-3', "text-success",'cent');
@@ -127,7 +127,7 @@ window.addEventListener('load', ()=>{
         totalDist3.innerHTML = r;
 
         let deathsDist = document.createElement('div');
-        deathsDist.classList.add("deaths-dist", "common",  "align-dist" ,"common1");
+        deathsDist.classList.add("deaths-dist", "common",  "align-dist" ,"common1","n5");
 
         let newCaseDist4 = document.createElement('p');
         newCaseDist4.classList.add('new-case-dist-4', "text-secondary",'cent');
