@@ -236,17 +236,21 @@ body {
 
 .from-main {
   height: 100vh;
-  width: 80vw;
+  width: 100%;
 }
 #why-this-is {
-  background-color: rgb(85, 109, 116);
+  background: linear-gradient(to bottom, #ffffff -1%, #0066cc 188%);
+  align-items: center;
   display: none;
 }
 .who-iam {
-  background-color: rgb(209, 153, 153);
+  background: linear-gradient(to bottom, #ffffff -1%, #0066cc 188%);
+  align-items: center;
   display: none;
 }
 .about-data {
-  background-color: rgb(172, 148, 189);
+  background: linear-gradient(to bottom, #ffffff -1%, #0066cc 188%);
+  align-items: center;
   display: none;
+  animation-duration: 1s;
 }
