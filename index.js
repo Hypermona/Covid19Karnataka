@@ -146,6 +146,27 @@ window.addEventListener("load", () => {
     whoIam.style.display = "none";
     aboutData.style.display = "inherit";
   };
+
+  let a1 = document.getElementById("a1");
+  let a2 = document.getElementById("a2");
+  let a3 = document.getElementById("a3");
+
+  a1.onclick = () => {
+    whyThisIs.style.display = "inherit";
+    whoIam.style.display = "none";
+    aboutData.style.display = "none";
+  };
+  a2.onclick = () => {
+    whyThisIs.style.display = "none";
+    whoIam.style.display = "inherit";
+    aboutData.style.display = "none";
+  };
+  a3.onclick = () => {
+    whyThisIs.style.display = "none";
+    whoIam.style.display = "none";
+    aboutData.style.display = "inherit";
+  };
+
   // All functions here...........................black-muted
   function indianNumSystem(x) {
     x = x.toString();

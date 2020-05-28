@@ -229,27 +229,53 @@ body {
   animation-duration: 2s;
 }
 .w3-animate-right {
+  animation-duration: 1s;
+}
+.w3-animate-left {
+  animation-duration: 1s;
+}
+.w3-animate-top {
   animation-duration: 2s;
 }
-
 /* ######################################################### */
 
 .from-main {
-  height: 100vh;
-  width: 100%;
 }
 #why-this-is {
-  background: linear-gradient(to bottom, #ffffff -1%, #0066cc 188%);
   align-items: center;
   display: none;
 }
 .who-iam {
-  background: linear-gradient(to bottom, #ffffff -1%, #0066cc 188%);
-  align-items: center;
   display: none;
 }
+.who-iam1 {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.who-iam1 p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: lavender;
+  border-radius: 9px;
+  padding: 10px;
+  width: 30%;
+}
+.social-link {
+  display: flex;
+  justify-content: space-around;
+  width: 17%;
+  margin: 10px 30px 10px 30px;
+}
+.travel-button {
+  margin-top: 25px;
+  width: auto;
+}
 .about-data {
-  background: linear-gradient(to bottom, #ffffff -1%, #0066cc 188%);
   align-items: center;
   display: none;
   animation-duration: 1s;
