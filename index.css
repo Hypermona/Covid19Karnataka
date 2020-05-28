@@ -230,8 +230,6 @@ body {
 }
 /* ######################################################### */
 
-.from-main {
-}
 #why-this-is {
   align-items: center;
   display: none;
@@ -270,4 +268,12 @@ body {
   align-items: center;
   display: none;
   animation-duration: 1s;
+}
+@media only screen and (max-width: 480px) {
+  .who-iam1 p {
+    width: 90%;
+  }
+  .social-link {
+    width: 40%;
+  }
 }
