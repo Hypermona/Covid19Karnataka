@@ -228,15 +228,6 @@ body {
 .w3-animate-opacity {
   animation-duration: 2s;
 }
-.w3-animate-right {
-  animation-duration: 1s;
-}
-.w3-animate-left {
-  animation-duration: 1s;
-}
-.w3-animate-top {
-  animation-duration: 2s;
-}
 /* ######################################################### */
 
 .from-main {
