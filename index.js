@@ -355,16 +355,19 @@ window.addEventListener("load", () => {
       // If media query matches
       var element = document.getElementById("noanim1");
       element.classList.remove("animate__bounceInRight");
-      var element = document.getElementById("noanim2");
-      element.classList.remove("animate__bounceInLeft");
-      var element = document.getElementById("noanim3");
-      element.classList.remove("animate__bounceInRight");
-      var element = document.getElementById("noanim4");
-      element.classList.remove("animate__bounceInLeft");
-      var element = document.getElementById("noanim5");
-      element.classList.remove("animate__bounceInRight");
-      var element = document.getElementById("noanim6");
-      element.classList.remove("animate__bounceInLeft");
+      var element1 = document.getElementById("noanim2");
+      element1.classList.remove("animate__bounceInLeft");
+      element1.classList.add("w3-animate-opacity");
+      var element2 = document.getElementById("noanim3");
+      element2.classList.remove("animate__bounceInLeft");
+      var element3 = document.getElementById("noanim4");
+      element3.classList.remove("animate__bounceInRight");
+      element3.classList.add("w3-animate-opacity");
+      var element4 = document.getElementById("noanim5");
+      element4.classList.remove("animate__bounceInRight");
+      var element5 = document.getElementById("noanim6");
+      element5.classList.remove("animate__bounceInLeft");
+      element5.classList.add("w3-animate-opacity");
     }
   }
 
