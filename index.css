@@ -228,6 +228,10 @@ body {
 .w3-animate-opacity {
   animation-duration: 2s;
 }
+.animate__bounceInLeft,
+.animate__bounceInRight {
+  animation-duration: 2s;
+}
 /* ######################################################### */
 
 #why-this-is {
@@ -280,9 +284,5 @@ body {
     margin-top: 10px;
     width: 50%;
     height: 25%;
-  }
-  .animate__slideInRight,
-  .animate__slideInLeft {
-    animation-fill-mode: forward;
   }
 }
