@@ -276,4 +276,9 @@ body {
   .social-link {
     width: 40%;
   }
+  .img1 {
+    margin-top: 10px;
+    width: 50%;
+    height: 25%;
+  }
 }
