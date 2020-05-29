@@ -281,4 +281,8 @@ body {
     width: 50%;
     height: 25%;
   }
+  .animate__slideInRight,
+  .animate__slideInLeft {
+    animation-fill-mode: forward;
+  }
 }
