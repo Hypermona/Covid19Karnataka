@@ -220,6 +220,13 @@ body {
   .n5 {
     width: 14.5vw;
   }
+  .notransition {
+    -webkit-transition: none !important;
+    -moz-transition: none !important;
+    -o-transition: none !important;
+    -ms-transition: none !important;
+    transition: none !important;
+  }
 }
 /* for smooth loading */
 .w3-animate-bottom {

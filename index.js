@@ -349,4 +349,26 @@ window.addEventListener("load", () => {
       console.log("gertgh");
     }
   }
+  // removing css property
+  function myFunction(x) {
+    if (x.matches) {
+      // If media query matches
+      var element = document.getElementById("noanim1");
+      element.classList.remove("animate__bounceInRight");
+      var element = document.getElementById("noanim2");
+      element.classList.remove("animate__bounceInLeft");
+      var element = document.getElementById("noanim3");
+      element.classList.remove("animate__bounceInRight");
+      var element = document.getElementById("noanim4");
+      element.classList.remove("animate__bounceInLeft");
+      var element = document.getElementById("noanim5");
+      element.classList.remove("animate__bounceInRight");
+      var element = document.getElementById("noanim6");
+      element.classList.remove("animate__bounceInLeft");
+    }
+  }
+
+  var x = window.matchMedia("(max-width: 480px)");
+  myFunction(x); // Call listener function at run time
+  x.addListener(myFunction); // Attach listener function on state changes
 });
