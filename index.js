@@ -152,21 +152,80 @@ window.addEventListener("load", () => {
   let a3 = document.getElementById("a3");
 
   a1.onclick = () => {
-    whyThisIs.style.display = "inherit";
+    console.log(
+      "before: ",
+      "why this is",
+      whyThisIs.style.display,
+      "who iam",
+      whoIam.style.display,
+      "about data",
+      aboutData.style.display
+    );
+    if (whyThisIs.style.display == "none") {
+      whyThisIs.style.display = "inherit";
+    }
     whoIam.style.display = "none";
     aboutData.style.display = "none";
+    console.log(
+      "after: ",
+      "why this is",
+      whyThisIs.style.display,
+      "who iam",
+      whoIam.style.display,
+      "about data",
+      aboutData.style.display
+    );
   };
   a2.onclick = () => {
+    console.log(
+      "before: ",
+      "why this is",
+      whyThisIs.style.display,
+      "who iam",
+      whoIam.style.display,
+      "about data",
+      aboutData.style.display
+    );
+    if ((whoIam.style.display = "none")) {
+      whoIam.style.display = "inherit";
+    }
     whyThisIs.style.display = "none";
-    whoIam.style.display = "inherit";
     aboutData.style.display = "none";
+    console.log(
+      "after: ",
+      "why this is",
+      whyThisIs.style.display,
+      "who iam",
+      whoIam.style.display,
+      "about data",
+      aboutData.style.display
+    );
   };
   a3.onclick = () => {
+    console.log(
+      "before: ",
+      "why this is",
+      whyThisIs.style.display,
+      "who iam",
+      whoIam.style.display,
+      "about data",
+      aboutData.style.display
+    );
+    if ((aboutData.style.display = "none")) {
+      aboutData.style.display = "inherit";
+    }
     whyThisIs.style.display = "none";
     whoIam.style.display = "none";
-    aboutData.style.display = "inherit";
+    console.log(
+      "after: ",
+      "why this is",
+      whyThisIs.style.display,
+      "who iam",
+      whoIam.style.display,
+      "about data",
+      aboutData.style.display
+    );
   };
-
   // All functions here...........................black-muted
   function indianNumSystem(x) {
     x = x.toString();
