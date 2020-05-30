@@ -5,7 +5,7 @@ window.addEventListener("load", () => {
   fetch(apiIndia)
     .then((response) => response.json())
     .then((data) => {
-      console.log(data);
+      // console.log(data);
       const { Countries } = data;
       console.log(Countries[76].Country);
       document.getElementById("india-confirmed-new-case").innerHTML =
@@ -33,8 +33,8 @@ window.addEventListener("load", () => {
   fetch(apiKar)
     .then((response) => response.json())
     .then((data) => {
-      console.log(data);
       const { statewise } = data;
+      console.log("karnataka", statewise[12].state, data);
       document.getElementById("kar-confirmed-new-case").innerHTML =
         "[+" + indianNumSystem(statewise[12].deltaconfirmed) + "]";
       document.getElementById(
@@ -60,25 +60,25 @@ window.addEventListener("load", () => {
   fetch(api)
     .then((response) => response.json())
     .then((data) => {
-      console.log("hello world");
-      console.log(data);
-      console.log("after ittiration");
+      // console.log("hello world");
+      // console.log(data);
+      // console.log("after ittiration");
       const { Karnataka } = data;
       let obj = Karnataka.districtData;
       for (var key in obj) {
         if (obj.hasOwnProperty(key)) {
           var val = obj[key];
-          console.log(val);
-          console.log(
-            key,
-            val.confirmed,
-            val.delta.confirmed,
-            val.active,
-            val.recovered,
-            val.delta.recovered,
-            val.deceased,
-            val.delta.deceased
-          );
+          // console.log(val);
+          // console.log(
+          // key,
+          // val.confirmed,
+          // val.delta.confirmed,
+          // val.active,
+          // val.recovered,
+          // val.delta.recovered,
+          // val.deceased,
+          // val.delta.deceased
+          // );
 
           addDistrict(
             key,
@@ -152,79 +152,25 @@ window.addEventListener("load", () => {
   let a3 = document.getElementById("a3");
 
   a1.onclick = () => {
-    console.log(
-      "before: ",
-      "why this is",
-      whyThisIs.style.display,
-      "who iam",
-      whoIam.style.display,
-      "about data",
-      aboutData.style.display
-    );
     if (whyThisIs.style.display == "none") {
       whyThisIs.style.display = "inherit";
     }
     whoIam.style.display = "none";
     aboutData.style.display = "none";
-    console.log(
-      "after: ",
-      "why this is",
-      whyThisIs.style.display,
-      "who iam",
-      whoIam.style.display,
-      "about data",
-      aboutData.style.display
-    );
   };
   a2.onclick = () => {
-    console.log(
-      "before: ",
-      "why this is",
-      whyThisIs.style.display,
-      "who iam",
-      whoIam.style.display,
-      "about data",
-      aboutData.style.display
-    );
     if ((whoIam.style.display = "none")) {
       whoIam.style.display = "inherit";
     }
     whyThisIs.style.display = "none";
     aboutData.style.display = "none";
-    console.log(
-      "after: ",
-      "why this is",
-      whyThisIs.style.display,
-      "who iam",
-      whoIam.style.display,
-      "about data",
-      aboutData.style.display
-    );
   };
   a3.onclick = () => {
-    console.log(
-      "before: ",
-      "why this is",
-      whyThisIs.style.display,
-      "who iam",
-      whoIam.style.display,
-      "about data",
-      aboutData.style.display
-    );
     if ((aboutData.style.display = "none")) {
       aboutData.style.display = "inherit";
     }
     whyThisIs.style.display = "none";
     whoIam.style.display = "none";
-    console.log(
-      "after: ",
-      "why this is",
-      whyThisIs.style.display,
-      "who iam",
-      whoIam.style.display,
-      "about data",
-      aboutData.style.display
-    );
   };
   // All functions here...........................black-muted
   function indianNumSystem(x) {
@@ -249,7 +195,7 @@ window.addEventListener("load", () => {
   // adding district
   function addDistrict(n, c, nc, a, r, nr, d, nd) {
     let caseDistrictWise = document.getElementById("case-district-wise");
-    console.log(caseDistrictWise);
+    // console.log(caseDistrictWise);
     let details = document.createElement("div");
     details.classList.add(
       "details",
@@ -346,7 +292,7 @@ window.addEventListener("load", () => {
 
       caseDistrictWise.appendChild(details);
     } else {
-      console.log("gertgh");
+      // console.log("gertgh");
     }
   }
   // removing css property
