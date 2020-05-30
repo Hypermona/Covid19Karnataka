@@ -32,6 +32,20 @@ body {
   margin: auto;
   max-width: 800px;
 }
+.note-center {
+  display: flex;
+  justify-content: center;
+}
+.note {
+  text-align: center;
+  font-weight: 600;
+  font-size: x-small;
+  color: #581b98;
+  background-color: #e6ddf0;
+  width: 80%;
+  padding: 5px;
+  border-radius: 4px;
+}
 .image {
   text-align: center;
   height: 30%;

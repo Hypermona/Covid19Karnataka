@@ -7,7 +7,7 @@ window.addEventListener("load", () => {
     .then((data) => {
       // console.log(data);
       const { Countries } = data;
-      console.log(Countries[76].Country);
+      // console.log(data);
       document.getElementById("india-confirmed-new-case").innerHTML =
         "[+" + indianNumSystem(Countries[76].NewConfirmed) + "]";
       document.getElementById(
@@ -35,6 +35,8 @@ window.addEventListener("load", () => {
     .then((data) => {
       const { statewise } = data;
       console.log("karnataka", statewise[12].state, data);
+      document.getElementById("note").innerHTML =
+        '"' + statewise[12].statenotes + '..."';
       document.getElementById("kar-confirmed-new-case").innerHTML =
         "[+" + indianNumSystem(statewise[12].deltaconfirmed) + "]";
       document.getElementById(
