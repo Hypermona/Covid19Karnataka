@@ -34,28 +34,28 @@ window.addEventListener("load", () => {
     .then((response) => response.json())
     .then((data) => {
       const { statewise } = data;
-      console.log("karnataka", statewise[12].state, data);
+      console.log("karnataka", statewise[11].state, data);
       document.getElementById("note").innerHTML =
-        '"' + statewise[12].statenotes + '..."';
+        '"' + statewise[11].statenotes + '..."';
       document.getElementById("kar-confirmed-new-case").innerHTML =
-        "[+" + indianNumSystem(statewise[12].deltaconfirmed) + "]";
+        "[+" + indianNumSystem(statewise[11].deltaconfirmed) + "]";
       document.getElementById(
         "kar-confirmed-total"
-      ).innerHTML = indianNumSystem(statewise[12].confirmed);
+      ).innerHTML = indianNumSystem(statewise[11].confirmed);
       document.getElementById("kar-active-new-case").innerHTML =
-        "[+" + indianNumSystem(statewise[12].deltaconfirmed) + "]";
+        "[+" + indianNumSystem(statewise[11].deltaconfirmed) + "]";
       document.getElementById("kar-active-total").innerHTML = indianNumSystem(
-        statewise[12].active
+        statewise[11].active
       );
       document.getElementById("kar-recovered-new-case").innerHTML =
-        "[+" + indianNumSystem(statewise[12].deltarecovered) + "]";
+        "[+" + indianNumSystem(statewise[11].deltarecovered) + "]";
       document.getElementById(
         "kar-recovered-total"
-      ).innerHTML = indianNumSystem(statewise[12].recovered);
+      ).innerHTML = indianNumSystem(statewise[11].recovered);
       document.getElementById("kar-deaths-new-case").innerHTML =
-        "[+" + indianNumSystem(statewise[12].deltadeaths) + "]";
+        "[+" + indianNumSystem(statewise[11].deltadeaths) + "]";
       document.getElementById("kar-deaths-total").innerHTML = indianNumSystem(
-        statewise[12].deaths
+        statewise[11].deaths
       );
     });
 
